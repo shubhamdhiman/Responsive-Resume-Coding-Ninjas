@@ -227,16 +227,6 @@ body {
     margin-left: 1rem;
 }
 
-/* #skills #lower {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-} */
-
-
 
 /* portfolio*/
 
@@ -558,14 +548,6 @@ textarea {
     top: 12%;
 }
 
-/* #timeline #plane {
-    position: sticky;
-    top: 25%;
-    transform: rotate(90deg);
-    z-index: 2;
-    color: #2857a4;
-
-} */
 
 #upper-work-section {
     height: 50%;
@@ -649,7 +631,6 @@ textarea {
     margin: 0.5rem;
     min-height: 150px;
     width: 40%;
-    /*     border:1px solid green; */
 }
 
 #edu-section:nth-child(2n) {
@@ -680,12 +661,6 @@ textarea {
     z-index: 1;
 }
 
-/* #timeline{
-    width:30%;
-    height:150px;
-    border:2px solid orange;
-    position:absolute;
-} */
 #edu-container #timeline {
     position: absolute;
     width: 0%;
@@ -1045,11 +1020,6 @@ textarea {
     }
    
 
-    
-    
-    
-
-
     /* About */
     #about{
         height:650px;
@@ -1126,4 +1096,95 @@ textarea {
         font-size: 1rem;
     }
 
+}
+
+
+
+@media screen and (max-width:450px){
+    /* About */
+    #about{
+        height:750px;
+    }
+
+     /* Education */
+
+     #education {
+        height: 750px;
+    }
+     #edu-icon {
+        padding: 3rem 0;
+    }
+
+    #edu-icon span {
+        font-size: 2.2rem;
+    }
+
+    #edu-section {
+        width: 90%;
+        left: 10%;
+    }
+    #upper-edu-section-img img {
+        height: 30px;
+        width:50px;
+    }
+    #upper-edu-section-details #designation {
+        font-size: 1.9rem;
+        color: #2857a4;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        
+    }
+    
+    
+    #upper-edu-section-details span {
+        font-size: 0.9rem;
+        color: gray;
+        text-align: right;
+    }
+    #edu-section:nth-child(2n+1)::after {
+        
+        left: -17%;
+    }
+    
+    #edu-section:nth-child(2n)::after {
+        
+        left: -17%;
+    }
+
+    /* Work Experience */
+    #upper-work-section-img img {
+        height: 30px;
+        width:30px;
+    }
+    #upper-work-section-details #designation {
+        font-size: 1.9rem;
+        color: #2857a4;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        
+    }
+    
+    
+    #upper-work-section-details span {
+        font-size: 0.9rem;
+        color: gray;
+        text-align: right;
+    }
+    #work-section:nth-child(2n+1)::after {
+        
+        left: -17%;
+    }
+    
+    #work-section:nth-child(2n)::after {
+        
+        left: -17%;
+    }
+
+    
+}
+@media screen and (max-width:342px){
+    /* About */
+    #about{
+        height:850px;
+    }
 }
