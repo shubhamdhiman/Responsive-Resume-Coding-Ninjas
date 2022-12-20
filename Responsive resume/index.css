@@ -9,7 +9,8 @@ body {
 #body-header {
     height: 600px;
     opacity: 0.8;
-    background-image: url(background.jpg);
+    /* background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg); */
+    background-image: url(assets/background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -274,7 +275,7 @@ body {
     width: 500px;
     /*     min-width:100px; */
     height: 500px;
-    background: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png");
+    background: url("assets/project.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -322,7 +323,7 @@ body {
 #project2 {
     width: 500px;
     height: 500px;
-    background: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png");
+    background: url("assets/project2.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
