@@ -1,5 +1,6 @@
 # Responsive-resume-a
 
-It's a resume reference. Build under the guidance of Coding Ninjas.
+Created a Responsive Resume where I have added some sections like about, skills, education, work-experience, portfolio and contact me.
+It's a template more than a project.
 
-Link for the Resume: (https://responsiveresumea.netlify.app)
+## Link for the Resume: (https://responsiveresumea.netlify.app)
